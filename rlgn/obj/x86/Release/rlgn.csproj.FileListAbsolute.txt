@@ -1,0 +1,39 @@
+C:\Users\Florian\Documents\Visual Studio 2010\Projects\RFLauncher\kudoz_launcher\trunk\rlgn\rlgn\bin\Release\rlgn.exe.config
+C:\Users\Florian\Documents\Visual Studio 2010\Projects\RFLauncher\kudoz_launcher\trunk\rlgn\rlgn\bin\Release\rlgn.exe
+C:\Users\Florian\Documents\Visual Studio 2010\Projects\RFLauncher\kudoz_launcher\trunk\rlgn\rlgn\bin\Release\rlgn.pdb
+C:\Users\Florian\Documents\Visual Studio 2010\Projects\RFLauncher\kudoz_launcher\trunk\rlgn\rlgn\obj\x86\Release\MainWindow.baml
+C:\Users\Florian\Documents\Visual Studio 2010\Projects\RFLauncher\kudoz_launcher\trunk\rlgn\rlgn\obj\x86\Release\MainWindow.g.cs
+C:\Users\Florian\Documents\Visual Studio 2010\Projects\RFLauncher\kudoz_launcher\trunk\rlgn\rlgn\obj\x86\Release\App.g.cs
+C:\Users\Florian\Documents\Visual Studio 2010\Projects\RFLauncher\kudoz_launcher\trunk\rlgn\rlgn\obj\x86\Release\rlgn_MarkupCompile.cache
+C:\Users\Florian\Documents\Visual Studio 2010\Projects\RFLauncher\kudoz_launcher\trunk\rlgn\rlgn\obj\x86\Release\rlgn.g.resources
+C:\Users\Florian\Documents\Visual Studio 2010\Projects\RFLauncher\kudoz_launcher\trunk\rlgn\rlgn\obj\x86\Release\rlgn.Properties.Resources.resources
+C:\Users\Florian\Documents\Visual Studio 2010\Projects\RFLauncher\kudoz_launcher\trunk\rlgn\rlgn\obj\x86\Release\rlgn.exe
+C:\Users\Florian\Documents\Visual Studio 2010\Projects\RFLauncher\kudoz_launcher\trunk\rlgn\rlgn\obj\x86\Release\rlgn.pdb
+C:\Users\Florian\Documents\Visual Studio 2010\Projects\RFLauncher\kudoz_launcher\trunk\rlgn\rlgn\obj\x86\Release\rlgn.csprojResolveAssemblyReference.cache
+C:\Users\Florian\Documents\Visual Studio 2010\Projects\RFLauncher\kudoz_launcher\trunk\rlgn\rlgn\obj\x86\Release\rlgn.csproj.GenerateResource.Cache
+C:\Users\Norbert\Desktop\rlgn\rlgn\bin\Release\rlgn.exe.config
+C:\Users\Norbert\Desktop\rlgn\rlgn\bin\Release\rlgn.exe
+C:\Users\Norbert\Desktop\rlgn\rlgn\bin\Release\rlgn.pdb
+C:\Users\Norbert\Desktop\rlgn\rlgn\obj\x86\Release\rlgn.csprojAssemblyReference.cache
+C:\Users\Norbert\Desktop\rlgn\rlgn\obj\x86\Release\MainWindow.baml
+C:\Users\Norbert\Desktop\rlgn\rlgn\obj\x86\Release\MainWindow.g.cs
+C:\Users\Norbert\Desktop\rlgn\rlgn\obj\x86\Release\App.g.cs
+C:\Users\Norbert\Desktop\rlgn\rlgn\obj\x86\Release\rlgn_MarkupCompile.cache
+C:\Users\Norbert\Desktop\rlgn\rlgn\obj\x86\Release\rlgn.g.resources
+C:\Users\Norbert\Desktop\rlgn\rlgn\obj\x86\Release\rlgn.Properties.Resources.resources
+C:\Users\Norbert\Desktop\rlgn\rlgn\obj\x86\Release\rlgn.csproj.GenerateResource.cache
+C:\Users\Norbert\Desktop\rlgn\rlgn\obj\x86\Release\rlgn.exe
+C:\Users\Norbert\Desktop\rlgn\rlgn\obj\x86\Release\rlgn.pdb
+C:\Users\Norbert\Documents\rlgn\rlgn\bin\Release\rlgn.exe.config
+C:\Users\Norbert\Documents\rlgn\rlgn\bin\Release\rlgn.exe
+C:\Users\Norbert\Documents\rlgn\rlgn\bin\Release\rlgn.pdb
+C:\Users\Norbert\Documents\rlgn\rlgn\obj\x86\Release\rlgn.csprojAssemblyReference.cache
+C:\Users\Norbert\Documents\rlgn\rlgn\obj\x86\Release\MainWindow.baml
+C:\Users\Norbert\Documents\rlgn\rlgn\obj\x86\Release\MainWindow.g.cs
+C:\Users\Norbert\Documents\rlgn\rlgn\obj\x86\Release\App.g.cs
+C:\Users\Norbert\Documents\rlgn\rlgn\obj\x86\Release\rlgn_MarkupCompile.cache
+C:\Users\Norbert\Documents\rlgn\rlgn\obj\x86\Release\rlgn.g.resources
+C:\Users\Norbert\Documents\rlgn\rlgn\obj\x86\Release\rlgn.Properties.Resources.resources
+C:\Users\Norbert\Documents\rlgn\rlgn\obj\x86\Release\rlgn.csproj.GenerateResource.cache
+C:\Users\Norbert\Documents\rlgn\rlgn\obj\x86\Release\rlgn.exe
+C:\Users\Norbert\Documents\rlgn\rlgn\obj\x86\Release\rlgn.pdb

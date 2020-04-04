@@ -1,0 +1,70 @@
+﻿<Window x:Class="rlgn.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Launcher" Height="561" Width="1037" MinHeight="562" MaxWidth="1037" MaxHeight="562" Icon="Images/trinity.ico" ShowInTaskbar="True" Topmost="False" WindowStartupLocation="CenterScreen" WindowStyle="None" AllowsTransparency="True" MouseLeftButtonDown="Window_MouseLeftButtonDown" ContentRendered="Window_ContentRendered" Background="#00000000" MinWidth="354" ResizeMode="NoResize">
+    <Grid Margin="0,14,-63,28">
+        <Image Height="523" HorizontalAlignment="Left" Name="imBackground" Stretch="None" VerticalAlignment="Top" Width="1015" Source="Images/launcher_bg_rff.png" Margin="10,0,0,-3" />
+        <Image Height="33" HorizontalAlignment="Left" Margin="725,189,0,0" Name="imTextUser" Stretch="Fill" VerticalAlignment="Top" Width="262" Source="/rlgn;component/Images/text_field.png" />
+        <Image Height="33" HorizontalAlignment="Left" Margin="726,228,0,0" Name="imTextPass" Stretch="Fill" VerticalAlignment="Top" Width="262" Source="/rlgn;component/Images/text_field.png" />
+        <TextBox Height="31" HorizontalAlignment="Left" Margin="727,191,0,0" Name="tbUser" VerticalAlignment="Top" Width="261" Text="Username" MaxLength="24" MaxLines="1" TabIndex="1" Foreground="Gray" FontSize="16" BorderBrush="{x:Null}" Opacity="1" GotFocus="tbUser_GotFocus">
+            <TextBox.Background>
+                <SolidColorBrush />
+            </TextBox.Background>
+        </TextBox>
+        <PasswordBox Height="31" HorizontalAlignment="Left" Margin="727,230,0,0" Name="tbPassword" VerticalAlignment="Top" Width="261" MaxLength="24" TabIndex="2" BorderBrush="{x:Null}" FontSize="16" Opacity="1" Foreground="Gray" Password="Password" GotFocus="tbPassword_GotFocus">
+            <PasswordBox.Background>
+                <SolidColorBrush />
+            </PasswordBox.Background>
+        </PasswordBox>
+        <ComboBox Height="23" Margin="847,125,0,0" Name="cbResolution" VerticalAlignment="Top" Visibility="Hidden" HorizontalAlignment="Left" Width="120" />
+        <ComboBox Height="23" HorizontalAlignment="Left" Margin="847,183,0,0" Name="cbTexture" VerticalAlignment="Top" Width="120" Visibility="Hidden" />
+        <ComboBox Height="23" HorizontalAlignment="Left" Margin="847,212,0,0" Name="cbDLight" VerticalAlignment="Top" Width="120" Visibility="Hidden" />
+        <ComboBox Height="23" HorizontalAlignment="Left" Margin="847,241,0,0" Name="cbGlowEffect" VerticalAlignment="Top" Width="120" Visibility="Hidden" />
+        <ComboBox Height="23" HorizontalAlignment="Left" Margin="847,270,0,0" Name="cbShadow" VerticalAlignment="Top" Width="120" Visibility="Hidden" />
+        <ComboBox Height="23" HorizontalAlignment="Left" Margin="847,299,0,0" Name="cbGamma" VerticalAlignment="Top" Width="120" Visibility="Hidden" />
+        <CheckBox Content="Mouse Acceleration" Height="16" HorizontalAlignment="Left" Margin="845,350,0,0" Name="cbMouseAccel" VerticalAlignment="Top" IsChecked="True" Visibility="Hidden" Foreground="White" />
+        <CheckBox Content="Detailed Textures" Height="16" HorizontalAlignment="Left" Margin="847,328,0,0" Name="cbDetText" VerticalAlignment="Top" IsChecked="True" Visibility="Hidden" Foreground="White" />
+        <Label Content="Fullcreen Resolution" Height="28" HorizontalAlignment="Left" Margin="710,120,0,0" Name="label3" VerticalAlignment="Top" Visibility="Hidden" Foreground="White" />
+        <Label Content="Texture Detail" Height="28" HorizontalAlignment="Left" Margin="744,178,0,0" Name="label4" VerticalAlignment="Top" Visibility="Hidden" Foreground="White" />
+        <Label Content="Dynamic Light" Height="28" HorizontalAlignment="Left" Margin="741,207,0,0" Name="label5" VerticalAlignment="Top" Visibility="Hidden" Foreground="White" />
+        <Label Content="Glow Effect" Height="28" HorizontalAlignment="Left" Margin="757,236,0,0" Name="label6" VerticalAlignment="Top" Visibility="Hidden" Foreground="White" />
+        <Label Content="Shadow" Height="28" HorizontalAlignment="Left" Margin="775,265,0,0" Name="label7" VerticalAlignment="Top" Visibility="Hidden" Foreground="White" />
+        <Label Content="Gamma" Height="28" HorizontalAlignment="Left" Margin="776,294,0,0" Name="label8" VerticalAlignment="Top" Visibility="Hidden" Foreground="White" />
+        <Label Content="Graphics Adapter" Height="28" HorizontalAlignment="Left" Margin="725,91,0,0" Name="label9" VerticalAlignment="Top" Visibility="Hidden" Foreground="White" />
+        <ComboBox Height="23" HorizontalAlignment="Left" Margin="847,96,0,0" Name="cbGraphAd" VerticalAlignment="Top" Visibility="Hidden" Width="120" />
+        <Image Height="40" HorizontalAlignment="Left" Margin="737,304,0,0" Name="imLoginNormal" Stretch="Fill" VerticalAlignment="Top" Width="106" Source="/rlgn;component/Images/login_normal.png" Visibility="Visible" />
+        <Image Height="40" HorizontalAlignment="Left" Margin="737,304,0,0" Name="imLoginHover" Stretch="Fill" VerticalAlignment="Top" Width="106" Source="/rlgn;component/Images/login_hover.png" Visibility="Visible" />
+        <Button Content="Login" Height="40" HorizontalAlignment="Left" Margin="735,304,0,0" Name="bLogin" VerticalAlignment="Top" Width="106" IsDefault="True" TabIndex="4" Opacity="0" MouseEnter="bLogin_MouseEnter" MouseLeave="bLogin_MouseLeave" Click="bLogin_Click" />
+        <Button Height="16" HorizontalAlignment="Left" Margin="1008,5,0,0" Name="btCancel" VerticalAlignment="Top" Width="13" BorderBrush="{x:Null}" IsCancel="True" Click="btCancel_Click" Opacity="0" RenderTransformOrigin="0.538,0.438">
+            <Button.Background>
+                <SolidColorBrush />
+            </Button.Background>
+            <Button.Foreground>
+                <SolidColorBrush />
+            </Button.Foreground>
+        </Button>
+        <Image Height="40" HorizontalAlignment="Left" Margin="874,304,0,0" Name="imSetupNormal" Stretch="Fill" VerticalAlignment="Top" Width="106" Source="/rlgn;component/Images/options_normal.png" />
+        <Image Height="40" HorizontalAlignment="Left" Margin="874,304,0,0" Name="imSetupHover" Stretch="Fill" VerticalAlignment="Top" Width="106" Source="/rlgn;component/Images/options_hover.png" />
+        <Button Height="40" HorizontalAlignment="Left" Margin="874,304,0,0" Name="btSetup" VerticalAlignment="Top" Width="106" Opacity="0" MouseEnter="btSetup_MouseEnter" MouseLeave="btSetup_MouseLeave" Click="btSetup_Click"/>
+        <Label Content="Login Details" Height="33" HorizontalAlignment="Left" Margin="727,159,0,0" Name="lbLoginDetails" VerticalAlignment="Top" Width="110" FontSize="16" Foreground="White" Visibility="Visible" />
+        <CheckBox Content="Window Mode" Height="28" HorizontalAlignment="Left" Margin="727,270,0,0" Name="cbWindowMode" VerticalAlignment="Top" Width="200" Foreground="White" FontSize="16" Visibility="Visible" />
+        <Label Content="Client Setup" FontSize="16" Foreground="Gray" Height="33" HorizontalAlignment="Left" Margin="737,96,0,0" Name="lbSetup" VerticalAlignment="Top" Width="110" Visibility="Hidden" />
+        <Button Content="Save" Height="23" HorizontalAlignment="Left" Margin="774,412,0,0" Name="btSaveSetup" VerticalAlignment="Top" Width="75" Visibility="Hidden" Click="btSaveSetup_Click" />
+        <Button Content="Cancel" Height="23" HorizontalAlignment="Left" Margin="859,412,0,0" Name="btCancelSetup" VerticalAlignment="Top" Width="75" Visibility="Hidden" Click="btCancelSetup_Click" />
+        <Image Height="16" HorizontalAlignment="Left" Margin="950,268,0,0" Name="imSoundOn" Stretch="Fill" VerticalAlignment="Top" Width="16" Source="/rlgn;component/Images/speakon.png" Visibility="Hidden" />
+        <Image Height="16" HorizontalAlignment="Left" Margin="950,268,0,0" Name="imSoundOff" Stretch="Fill" VerticalAlignment="Top" Width="16" Source="/rlgn;component/Images/speakoff.png" Visibility="Hidden" />
+        <Button Content="Button" Height="16" HorizontalAlignment="Left" Margin="950,267,0,0" Name="btVolume" VerticalAlignment="Top" Width="16" Opacity="0" IsEnabled="False" />
+        <Label Content="v1.314" Height="28" HorizontalAlignment="Left" Margin="956,487,0,0" Name="lbVersion" VerticalAlignment="Top" Foreground="LightGray" Width="58" />
+        <Label Content="Select Server:" Height="28" HorizontalAlignment="Left" Margin="16,194,0,0" Name="lbSelectZone" VerticalAlignment="Top" FontSize="16" FontWeight="Bold" Visibility="Hidden" Foreground="White" />
+        <ComboBox Height="28" HorizontalAlignment="Left" Margin="16,231,0,0" Name="cbZones" VerticalAlignment="Top" Width="262" FontSize="16" Visibility="Hidden" SelectionChanged="cbZones_SelectionChanged" FontWeight="Bold">
+            <ComboBox.Resources>
+                <SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" Color="#FFCEACEB"></SolidColorBrush>
+            </ComboBox.Resources>
+        </ComboBox>
+        <Label Content="Patch Version: " Height="28" HorizontalAlignment="Left" Margin="64,480,0,0" Name="lbPatchVersion" VerticalAlignment="Top" Width="138" Foreground="LightGray" Visibility="Hidden" />
+        <ComboBox Height="23" HorizontalAlignment="Left" Margin="847,154,0,0" Name="cbWMResolution" VerticalAlignment="Top" Visibility="Hidden" Width="120" />
+        <Label Content="Window Mode Resolution" Foreground="White" Height="28" HorizontalAlignment="Left" Margin="679,149,0,0" Name="label1" VerticalAlignment="Top" Visibility="Hidden" />
+        <!-- Label x:Name="lbRegister" Content="Register" HorizontalAlignment="Left" Margin="737,487,0,0" VerticalAlignment="Top" Foreground="White" RenderTransformOrigin="-2.226,1.231"/ -->
+        <!-- Button x:Name="btRegister" Content="Button" HorizontalAlignment="Left" Margin="726,489,0,0" VerticalAlignment="Top" Width="75" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Opacity="0" Click="btRegister_Click"/ -->
+    </Grid>
+</Window>
